@@ -1,0 +1,40 @@
+.achivements{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.achivements h1{
+    font-family: emoji;
+    color: black;
+        text-shadow: 0px 3px 0px cornflowerblue;
+
+}
+.achivement-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 450px;
+    padding: 20px 0px;
+    justify-content: center;
+}
+.achivement-img img{
+    height: 450px;
+    width: 100%;
+}
+.achivement-details h1{
+    font-family: emoji;
+    margin-top: 50px;
+}
+.achivement-details h2{
+    font-family: emoji;
+    font-weight: bold;
+    color: black;
+}
+.achivement-details h4{
+    color:rgb(22, 184, 221);
+    margin-bottom: 50px;
+    font-family: emoji;
+}
+.achivement-details p{
+    color: black;
+}

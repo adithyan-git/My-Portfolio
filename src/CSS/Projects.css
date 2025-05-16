@@ -1,0 +1,58 @@
+.project{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+    
+}
+.project h1{
+    font-family: fantasy;
+    font-size: 50px;
+    color: black;
+}
+.first-project h1{
+    font-family: emoji;
+}
+.first-project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first-project  p{
+    width: 485px;
+    color: black;
+}
+.first-project svg{
+    margin-right: 5px;
+}
+.first-project h1 a{
+    margin-top: 25px;
+    font-size: 20px;
+    color: rgb(39, 201, 219);
+}
+.first-carousel img{
+    width: 100%;
+}
+.first-carousel{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.second-carousel img{
+    width: 100%;
+}
+.second-carousel {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+@media screen and (max-width:505px) {
+    .first-project p{
+        width: 200px;
+    }
+}

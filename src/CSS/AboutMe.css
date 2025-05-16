@@ -1,0 +1,18 @@
+.about-head{
+    display: flex;
+    justify-content: center;
+    padding: 10px 0px;
+}
+.about-head h1{
+    font-family: emoji;
+    margin-top: 50px;
+    color: black;
+    text-shadow: 0px 3px 0px cornflowerblue;
+}
+.about-details p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:black;
+    margin: 0px;
+}

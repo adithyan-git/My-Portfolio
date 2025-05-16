@@ -1,0 +1,105 @@
+.name-div{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    height: 100%;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.img-main-div img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+   
+
+}
+.img-main-div{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    align-items: center;
+    height: 450px;
+    padding: 20px;
+}
+
+.name-div h1,h2,h3{
+    font-family:  emoji;
+}
+.name-div h1{
+    font-size: 55px;
+    color: cornflowerblue;
+    text-shadow: 0px 4px 3px black;
+}
+.name-div h2{
+    font-size: 40px;
+    color: black;
+    text-shadow: 0px 4px 3px cornflowerblue;
+}
+.name-div h3{
+    font-size: 45px;
+    color: cornflowerblue;
+    text-shadow: 0px 4px 3px black;
+}
+.details-div{
+    
+    position: relative;
+    padding: 10px;
+}
+
+
+.details-div span{
+    font-size: 40px;
+    color: black;
+    text-shadow: 0px 4px 3px cornflowerblue;
+}
+.img-main-div img:hover{
+    transform: scale(1.5);
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 3s;
+}
+.img-main-sub-div{
+    overflow: hidden;
+    width: 300px;
+     background: linear-gradient(40deg,black 50%,cornflowerblue 50%);
+     padding: 10px;
+     border-radius: 20px;
+}
+@media screen and (max-width:992px) {
+        .name-div{
+            align-items: center;
+        }
+}
+
+@media screen and (max-width:413px) {
+    .img-main-div img{
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:300px) {
+    .name-div h1{
+        font-size: 30px;
+            }
+        .name-div h3{
+            font-size: 30px;
+        }
+
+    .name-div h2{
+        font-size: 26px;
+    }
+    .details-div span{
+        font-size: 26px;
+    }
+    .navbar-brand{
+        font-size: 15px;
+    }
+    .img-main-div img{
+        height: 210px;
+    }
+    .achivement-img img{
+        height: 300px !important;
+    }
+    .experience-img img{
+        height: 300px !important;
+    }
+}
