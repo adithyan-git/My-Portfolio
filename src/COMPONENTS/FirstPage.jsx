@@ -21,7 +21,7 @@ const FirstPage = () => {
             <Col lg={6} className='p-0'>
                 <div className='img-main-div'>       
                    <div className='img-main-sub-div'>
-                         <Image src="IMAGES/adithyanimg.jpg" thumbnail  />
+                         <Image src="IMAGES/myimage.jpg" thumbnail  />
                     </div>            
                 </div>
             </Col>
